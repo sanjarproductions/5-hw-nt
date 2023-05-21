@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(65, 149, 149);
+
+}
+
+.box {
+    background: #fff;
+    padding: 20px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.box .title_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .df {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.box .df .h3 {
+    font-size: 15px;
+}
+
+.box h1 {
+    font-size: 24px;
+}
+
+.box img {
+    width: 415px;
+    height: 252px;
+    position: absolute;
+    object-fit: contain;
+    margin-top: -54px;
+}
+
+.box p {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.box h1 {
+    font-size: 24px;
+}
+
+.box .icon {
+    background: url("https://cdn-icons-png.flaticon.com/512/61/61205.png") 50% 50% no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
